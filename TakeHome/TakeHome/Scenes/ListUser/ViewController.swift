@@ -8,6 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    override func loadView() {
+        super.loadView()
+        self.view.backgroundColor = .white
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
