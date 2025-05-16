@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6F6034642DD79AD70021BEFD /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6034632DD79AD70021BEFD /* SVProgressHUD */; };
+		6F60346C2DD79B620021BEFD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6F60346B2DD79B620021BEFD /* Alamofire */; };
+		6F6035072DD79C700021BEFD /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6035062DD79C700021BEFD /* SDWebImage */; };
+		6F60350D2DD79D5C0021BEFD /* Mocker in Frameworks */ = {isa = PBXBuildFile; productRef = 6F60350C2DD79D5C0021BEFD /* Mocker */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6F6034452DD799B00021BEFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6035072DD79C700021BEFD /* SDWebImage in Frameworks */,
+				6F6034642DD79AD70021BEFD /* SVProgressHUD in Frameworks */,
+				6F60346C2DD79B620021BEFD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F60350D2DD79D5C0021BEFD /* Mocker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +136,9 @@
 			);
 			name = TakeHome;
 			packageProductDependencies = (
+				6F6034632DD79AD70021BEFD /* SVProgressHUD */,
+				6F60346B2DD79B620021BEFD /* Alamofire */,
+				6F6035062DD79C700021BEFD /* SDWebImage */,
 			);
 			productName = TakeHome;
 			productReference = 6F60342B2DD799AF0021BEFD /* TakeHome.app */;
@@ -148,6 +162,7 @@
 			);
 			name = TakeHomeTests;
 			packageProductDependencies = (
+				6F60350C2DD79D5C0021BEFD /* Mocker */,
 			);
 			productName = TakeHomeTests;
 			productReference = 6F6034442DD799B00021BEFD /* TakeHomeTests.xctest */;
@@ -208,6 +223,12 @@
 			);
 			mainGroup = 6F6034222DD799AF0021BEFD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6F6034622DD79AD70021BEFD /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+				6F60346A2DD79B620021BEFD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				6F6035052DD79C700021BEFD /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				6F60350B2DD79D5C0021BEFD /* XCRemoteSwiftPackageReference "Mocker" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6F60342C2DD799AF0021BEFD /* Products */;
 			projectDirPath = "";
@@ -297,6 +318,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +347,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +488,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CFZD9JCS8M;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tymex.TakeHomeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,7 +507,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CFZD9JCS8M;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tymex.TakeHomeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +525,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CFZD9JCS8M;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tymex.TakeHomeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +543,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CFZD9JCS8M;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tymex.TakeHomeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -569,6 +594,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F6034622DD79AD70021BEFD /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+		6F60346A2DD79B620021BEFD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		6F6035052DD79C700021BEFD /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.0;
+			};
+		};
+		6F60350B2DD79D5C0021BEFD /* XCRemoteSwiftPackageReference "Mocker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WeTransfer/Mocker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F6034632DD79AD70021BEFD /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F6034622DD79AD70021BEFD /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+		6F60346B2DD79B620021BEFD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F60346A2DD79B620021BEFD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		6F6035062DD79C700021BEFD /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F6035052DD79C700021BEFD /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		6F60350C2DD79D5C0021BEFD /* Mocker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F60350B2DD79D5C0021BEFD /* XCRemoteSwiftPackageReference "Mocker" */;
+			productName = Mocker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F6034232DD799AF0021BEFD /* Project object */;
 }

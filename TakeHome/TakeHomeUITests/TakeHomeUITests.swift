@@ -6,6 +6,8 @@
 //
 
 import XCTest
+import Mocker
+import Alamofire
 
 final class TakeHomeUITests: XCTestCase {
 
