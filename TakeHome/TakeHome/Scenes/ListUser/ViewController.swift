@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let baseUrl: String = Environment.configuration(key: .baseUrl)
+        print(baseUrl)
     }
 }
 

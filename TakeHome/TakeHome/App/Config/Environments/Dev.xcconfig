@@ -1,0 +1,13 @@
+//
+//  Dev.xcconfig
+//  TakeHome
+//
+//  Created by Le on 16/5/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+// Environment: Config Develop
+DISPLAY_NAME = TakeHome Dev
+BASE_URL = https:/$()/api.github.com/users
+LOG_ENABLED = true

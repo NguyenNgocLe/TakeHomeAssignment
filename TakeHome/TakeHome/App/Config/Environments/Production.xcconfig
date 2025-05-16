@@ -1,0 +1,13 @@
+//
+//  Production.xcconfig
+//  TakeHome
+//
+//  Created by Le on 16/5/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+// Environment: Config Production
+DISPLAY_NAME = TakeHome Production
+BASE_URL = https:/$()/production.api.github.com/users
+LOG_ENABLED = false
