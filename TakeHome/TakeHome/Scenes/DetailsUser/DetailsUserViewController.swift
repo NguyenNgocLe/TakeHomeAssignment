@@ -52,7 +52,7 @@ class DetailsUserViewController<VM: DetailsUserViewModelType>: BaseViewControlle
         return view
     }()
     
-    private lazy var numberFollowerLabel: UILabel = {
+    lazy var numberFollowerLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "0"
@@ -62,7 +62,7 @@ class DetailsUserViewController<VM: DetailsUserViewModelType>: BaseViewControlle
         return label
     }()
     
-    private lazy var followerLabel: UILabel = {
+    lazy var followerLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = CommonString.follower
@@ -97,7 +97,7 @@ class DetailsUserViewController<VM: DetailsUserViewModelType>: BaseViewControlle
         return view
     }()
     
-    private lazy var numberFollowingLabel: UILabel = {
+    lazy var numberFollowingLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "0"
@@ -107,7 +107,7 @@ class DetailsUserViewController<VM: DetailsUserViewModelType>: BaseViewControlle
         return label
     }()
     
-    private lazy var followingLabel: UILabel = {
+    lazy var followingLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = CommonString.following
@@ -117,7 +117,7 @@ class DetailsUserViewController<VM: DetailsUserViewModelType>: BaseViewControlle
         return label
     }()
     
-    private lazy var titleBlogLabel: UILabel = {
+    lazy var titleBlogLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = CommonString.blog
@@ -127,7 +127,7 @@ class DetailsUserViewController<VM: DetailsUserViewModelType>: BaseViewControlle
         return label
     }()
     
-    private lazy var blogLabel: UILabel = {
+    lazy var blogLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = ""

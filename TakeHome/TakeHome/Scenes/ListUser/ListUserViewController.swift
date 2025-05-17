@@ -53,7 +53,8 @@ class ListUserViewController<VM: ListUserViewModelType>: BaseViewController<VM>,
     private let hud: CustomHudType
     
     // MARK: - Init
-    init(viewModel: VM, hud: CustomHudType = CustomHud.shared) {
+    init(viewModel: VM, hud: CustomHudType = CustomHud.shared,
+         alert: CustomAlertType = CustomAlert.shared) {
         self.hud = hud
         super.init(viewModel: viewModel)
     }

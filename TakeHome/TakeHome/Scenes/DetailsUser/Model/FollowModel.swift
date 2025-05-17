@@ -9,6 +9,10 @@ import Foundation
 
 struct FollowModel: Codable {
     let login: String
+    
+    init(login: String = "") {
+        self.login = login
+    }
 }
 
 struct InformationUserModel: Codable {
