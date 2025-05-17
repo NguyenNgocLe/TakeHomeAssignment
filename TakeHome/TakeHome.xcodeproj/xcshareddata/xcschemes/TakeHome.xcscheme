@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1620"
+   LastUpgradeVersion = "1520"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES"
-      buildArchitectures = "Automatic">
+      buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -15,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F60342A2DD799AF0021BEFD"
+               BlueprintIdentifier = "6FB3EC932DD898E00022B260"
                BuildableName = "TakeHome.app"
                BlueprintName = "TakeHome"
                ReferencedContainer = "container:TakeHome.xcodeproj">
@@ -24,7 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug(Production)"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
@@ -35,7 +34,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F6034432DD799B00021BEFD"
+               BlueprintIdentifier = "6FB3ECAC2DD898E20022B260"
                BuildableName = "TakeHomeTests.xctest"
                BlueprintName = "TakeHomeTests"
                ReferencedContainer = "container:TakeHome.xcodeproj">
@@ -46,7 +45,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F60344D2DD799B00021BEFD"
+               BlueprintIdentifier = "6FB3ECB62DD898E20022B260"
                BuildableName = "TakeHomeUITests.xctest"
                BlueprintName = "TakeHomeUITests"
                ReferencedContainer = "container:TakeHome.xcodeproj">
@@ -55,7 +54,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug(Production)"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -68,7 +67,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F60342A2DD799AF0021BEFD"
+            BlueprintIdentifier = "6FB3EC932DD898E00022B260"
             BuildableName = "TakeHome.app"
             BlueprintName = "TakeHome"
             ReferencedContainer = "container:TakeHome.xcodeproj">
@@ -76,7 +75,7 @@
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release(Production)"
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -85,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F60342A2DD799AF0021BEFD"
+            BlueprintIdentifier = "6FB3EC932DD898E00022B260"
             BuildableName = "TakeHome.app"
             BlueprintName = "TakeHome"
             ReferencedContainer = "container:TakeHome.xcodeproj">
@@ -93,10 +92,10 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug(Production)">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release(Production)"
+      buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

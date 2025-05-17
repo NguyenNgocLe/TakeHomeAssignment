@@ -5,7 +5,6 @@
 //  Created by Le on 17/5/25.
 //
 
-import Testing
 import Alamofire
 @testable import TakeHome
 

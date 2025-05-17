@@ -2,7 +2,7 @@
 //  TakeHomeUITestsLaunchTests.swift
 //  TakeHomeUITests
 //
-//  Created by Le on 16/5/25.
+//  Created by Le on 17/5/25.
 //
 
 import XCTest
@@ -17,7 +17,6 @@ final class TakeHomeUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
